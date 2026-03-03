@@ -1,19 +1,11 @@
-## Key Metric Definitions
+## Dataset
 
-Revenue:
-Monthly recognized revenue derived from ARR bridge:
-Starting ARR + New ARR + Expansion - Churn.
+Public Olist e-commerce dataset (Kaggle).
+Contains transactional order data, payments, shipping, and product information.
 
-Gross Margin:
-Revenue - COGS.
+Data was transformed in SQL to:
 
-Contribution Margin:
-Revenue - COGS - Direct GTM costs
-(Sales + Marketing variable spend).
-
-Net Burn:
-Net monthly cash change.
-
-Runway:
-Cash balance / rolling average monthly burn.
-Board guardrail: minimum 12 months runway.
+- Build monthly revenue aggregates
+- Construct margin structure (COGS, Shipping, Payment Fees)
+- Enable budget vs actual comparison
+- Support driver-based revenue variance decomposition
