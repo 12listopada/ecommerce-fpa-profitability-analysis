@@ -1,20 +1,27 @@
-# SaaS FP&A Runway & Burn Simulation
+# E-commerce Profitability & Revenue Variance Analysis (Olist Dataset)
 
-Finance-grade SQL simulation of a VC-backed Series B B2B SaaS company.
+End-to-end financial and operational analysis of an e-commerce business using the public Olist dataset.
 
-Context:
-- ~€20m ARR
-- EU HQ + US expansion (multi-currency)
-- Negative EBITDA, positive gross margin
-- Board focus: burn control and runway visibility
+The project focuses on moving beyond basic reporting and identifying structural drivers of revenue volatility and profitability constraints.
 
-Scope:
-- Management P&L (Revenue, COGS, Opex)
-- Budget vs Actual
-- Cash burn & runway monitoring
-- Headcount-driven cost modeling
-- FX translation (USD → EUR)
+## Objectives
 
-Status:
-Phase 1 – SQL data model & metric logic  
-Phase 2 – Power BI board-ready dashboards
+- Decompose revenue variance (Volume / Price / Residual)
+- Assess revenue predictability and volatility
+- Analyze gross vs contribution margin structure
+- Evaluate logistics intensity impact on profitability
+- Compare Actual vs Budget performance
+
+## Key Findings
+
+- Revenue slightly above budget (+1.4%), but structurally volatile (RVI = 2.09)
+- Volatility is primarily volume-driven
+- Gross margin remains stable (~38%)
+- Contribution margin (~15%) constrained by elevated shipping intensity (~16–18%)
+- Revenue growth alone does not improve operating leverage
+
+## Tools Used
+
+- SQL (data modeling and aggregations)
+- Power BI (financial modeling and dashboards)
+- Variance decomposition and margin bridge analysis
